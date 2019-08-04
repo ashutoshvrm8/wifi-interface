@@ -1,0 +1,59 @@
+@mixin topbar-items {
+    display: inline-flex;
+
+    >img {
+        padding-left: 6px;
+    }
+
+    >div {
+        padding-left: 20px;
+        padding-right: 26px;
+        padding-top: 8px;
+
+        p:first-of-type {
+            font-size: 10px;
+        }
+    }
+}
+
+@mixin port-items {
+    background: $bg-white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 351px;
+    left: 468px;
+    position: absolute;
+    width: 924px;
+}
+
+@mixin hardware-info {
+    h5 {
+        padding-top: 32px;
+    }
+
+    h5, p {
+        padding-left: 40px;
+    }
+
+    progress {
+        margin-left: 40px;
+    }
+
+    span {
+        color: $eclipse;
+        font-size: 16px;
+        padding-left: 45px;
+    }
+
+    p:nth-child(even) {
+        color: $grey;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    p:nth-child(odd) {
+        color: $eclipse;
+        font-size: 12px;
+        padding-top: 8px;
+    }
+}

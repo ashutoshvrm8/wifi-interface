@@ -1,0 +1,357 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: #F9F9F9;
+  font-family: 'Rubik'; }
+
+.blue-text {
+  color: #3768C4; }
+
+.d-flex {
+  display: flex; }
+
+.topbar-container {
+  height: 56px; }
+  .topbar-container .topbar {
+    background: #FFFFFF;
+    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.2);
+    display: -webkit-inline-box;
+    width: 100%; }
+    .topbar-container .topbar > li {
+      border-left: 0.2px solid #E5E5E5; }
+  .topbar-container .topbar_open-wifi {
+    width: 557px;
+    padding-left: 104px; }
+    .topbar-container .topbar_open-wifi .topbar_open-wifi__items {
+      line-height: 3.4; }
+  .topbar-container .topbar_system-status {
+    width: 193px;
+    line-height: 1.6; }
+    .topbar-container .topbar_system-status .topbar_system-status__items {
+      display: inline-flex; }
+      .topbar-container .topbar_system-status .topbar_system-status__items > img {
+        padding-left: 6px; }
+      .topbar-container .topbar_system-status .topbar_system-status__items > div {
+        padding-left: 20px;
+        padding-right: 26px;
+        padding-top: 8px; }
+        .topbar-container .topbar_system-status .topbar_system-status__items > div p:first-of-type {
+          font-size: 10px; }
+  .topbar-container .topbar_spends {
+    width: 202px;
+    line-height: 1.6; }
+    .topbar-container .topbar_spends .topbar_spends__items {
+      display: inline-flex; }
+      .topbar-container .topbar_spends .topbar_spends__items > img {
+        padding-left: 6px; }
+      .topbar-container .topbar_spends .topbar_spends__items > div {
+        padding-left: 20px;
+        padding-right: 26px;
+        padding-top: 8px; }
+        .topbar-container .topbar_spends .topbar_spends__items > div p:first-of-type {
+          font-size: 10px; }
+  .topbar-container .topbar_location {
+    width: 257px;
+    line-height: 1.6; }
+    .topbar-container .topbar_location .topbar_location__items {
+      display: inline-flex; }
+      .topbar-container .topbar_location .topbar_location__items > img {
+        padding-left: 6px; }
+      .topbar-container .topbar_location .topbar_location__items > div {
+        padding-left: 20px;
+        padding-right: 26px;
+        padding-top: 8px; }
+        .topbar-container .topbar_location .topbar_location__items > div p:first-of-type {
+          font-size: 10px; }
+  .topbar-container .topbar_notifications img {
+    padding-left: 25px; }
+
+.sidebar-container {
+  background: #FFFFFF;
+  box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.2);
+  height: 990px;
+  position: absolute;
+  width: 72px;
+  top: 0; }
+  .sidebar-container .active-item {
+    background: #3768C4; }
+  .sidebar-container li, .sidebar-container .add-item {
+    display: flex;
+    height: 56px;
+    justify-content: center; }
+  .sidebar-container .add-item {
+    bottom: 0;
+    left: 25px;
+    position: absolute; }
+
+.breadcrumb {
+  font-size: 14px;
+  left: 120px;
+  position: absolute;
+  top: 92px; }
+
+.gateway-config {
+  position: absolute;
+  height: 36px;
+  left: 120px;
+  top: 136px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3D3D3D; }
+
+.router-info {
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  left: 120px;
+  position: absolute;
+  top: 212px;
+  width: 324px; }
+  .router-info .model-info {
+    display: inline-table;
+    height: 210px;
+    justify-content: center; }
+    .router-info .model-info img {
+      padding-left: 70px;
+      padding-top: 33px; }
+    .router-info .model-info span {
+      font-size: 18px;
+      padding-left: 67px; }
+    .router-info .model-info .online-status::before {
+      content: '';
+      background-color: #43A047;
+      border-radius: 50%;
+      display: inline-block;
+      height: 6px;
+      margin-right: 8px;
+      margin-bottom: 1.5px;
+      width: 6px; }
+    .router-info .model-info .online-status {
+      color: #888888;
+      font-size: 14px;
+      padding-left: 135px;
+      padding-top: 17px; }
+  .router-info .hardware-details {
+    border-bottom: 0.5px solid #E5E5E5;
+    border-top: 0.5px solid #E5E5E5;
+    height: 628px; }
+    .router-info .hardware-details h5 {
+      padding-top: 32px; }
+    .router-info .hardware-details h5, .router-info .hardware-details p {
+      padding-left: 40px; }
+    .router-info .hardware-details progress {
+      margin-left: 40px; }
+    .router-info .hardware-details span {
+      color: #3D3D3D;
+      font-size: 16px;
+      padding-left: 45px; }
+    .router-info .hardware-details p:nth-child(even) {
+      color: #888888;
+      font-size: 12px;
+      padding-top: 20px; }
+    .router-info .hardware-details p:nth-child(odd) {
+      color: #3D3D3D;
+      font-size: 12px;
+      padding-top: 8px; }
+    .router-info .hardware-details .device-health {
+      color: #43A047 !important; }
+  .router-info .speed-info {
+    height: 213px; }
+    .router-info .speed-info h5 {
+      padding-top: 32px; }
+    .router-info .speed-info h5, .router-info .speed-info p {
+      padding-left: 40px; }
+    .router-info .speed-info progress {
+      margin-left: 40px; }
+    .router-info .speed-info span {
+      color: #3D3D3D;
+      font-size: 16px;
+      padding-left: 45px; }
+    .router-info .speed-info p:nth-child(even) {
+      color: #888888;
+      font-size: 12px;
+      padding-top: 20px; }
+    .router-info .speed-info p:nth-child(odd) {
+      color: #3D3D3D;
+      font-size: 12px;
+      padding-top: 8px; }
+    .router-info .speed-info span {
+      padding-left: 20px; }
+
+.wan-container, .lan-container, .intranet-container {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 351px;
+  left: 468px;
+  position: absolute;
+  width: 924px; }
+  .wan-container .port-type, .lan-container .port-type, .intranet-container .port-type {
+    padding: 32px 0 24px 40px; }
+
+.wan-container {
+  top: 212px; }
+
+.lan-container {
+  top: 587px; }
+
+.intranet-container {
+  top: 962px; }
+  .intranet-container table button {
+    background: #E53935;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 8px 24px; }
+
+table {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  width: 100%; }
+  table thead {
+    color: #A9A9A9;
+    font-size: 12px; }
+  table tr {
+    border-bottom: 0.2px solid #E6E6E6;
+    border-top: 0.2px solid #E6E6E6;
+    line-height: 4; }
+  table img {
+    margin-right: 10px; }
+
+.pagination {
+  bottom: 31px;
+  color: #888888;
+  display: inline-flex;
+  font-size: 12px;
+  position: absolute; }
+  .pagination .pagination_showing {
+    padding: 10px 10px 10px 40px; }
+  .pagination ul {
+    display: inline-flex;
+    padding-left: 51px; }
+    .pagination ul li {
+      padding: 10px; }
+    .pagination ul li:first-of-type {
+      background: #F3F3F3;
+      color: #3768C4;
+      border-radius: 16px; }
+  .pagination .pagination_perpage {
+    background: #F3F3F3;
+    border-radius: 16px;
+    color: #3768C4;
+    margin-left: 50px;
+    padding: 10px; }
+
+.side-panel {
+  background: #FFFFFF;
+  color: black;
+  display: none;
+  height: 1076px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 360px; }
+  .side-panel .cross-button {
+    float: right;
+    padding-right: 20px; }
+  .side-panel .port-type {
+    border-bottom: 0.5px solid #E5E5E5;
+    padding: 32px 0 24px 40px; }
+  .side-panel .port-name {
+    border-bottom: 0.5px solid #E5E5E5;
+    display: inline-flex;
+    line-height: 1.8;
+    padding-bottom: 19px;
+    padding-top: 19px;
+    width: 100%; }
+    .side-panel .port-name img {
+      padding-left: 32px; }
+    .side-panel .port-name > div {
+      padding-left: 16px;
+      padding-right: 60px; }
+      .side-panel .port-name > div p:nth-child(1) {
+        font-size: 16px; }
+      .side-panel .port-name > div p:nth-child(2) {
+        font-size: 12px; }
+    .side-panel .port-name .online-dot {
+      content: '';
+      background-color: #43A047;
+      border-radius: 50%;
+      display: inline-block;
+      height: 10px;
+      margin-top: 20px;
+      width: 10px; }
+  .side-panel .details {
+    border-bottom: 0.5px solid #E5E5E5;
+    padding-bottom: 32px; }
+    .side-panel .details p {
+      padding-left: 40px; }
+    .side-panel .details p:nth-child(odd) {
+      color: #888888;
+      font-size: 12px;
+      padding-top: 20px; }
+    .side-panel .details p:nth-child(even) {
+      color: #3D3D3D;
+      font-size: 12px;
+      padding-top: 8px; }
+    .side-panel .details .device-health {
+      color: #43A047 !important; }
+  .side-panel .data-transfer h5 {
+    padding-top: 32px; }
+  .side-panel .data-transfer h5, .side-panel .data-transfer p {
+    padding-left: 40px; }
+  .side-panel .data-transfer progress {
+    margin-left: 40px; }
+  .side-panel .data-transfer span {
+    color: #3D3D3D;
+    font-size: 16px;
+    padding-left: 45px; }
+  .side-panel .data-transfer p:nth-child(even) {
+    color: #888888;
+    font-size: 12px;
+    padding-top: 20px; }
+  .side-panel .data-transfer p:nth-child(odd) {
+    color: #3D3D3D;
+    font-size: 12px;
+    padding-top: 8px; }

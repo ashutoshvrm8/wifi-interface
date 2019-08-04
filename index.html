@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenWifi - My Dashboard</title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="topbar-container">
+        <ul class="topbar">
+            <li class="topbar_open-wifi">
+                <div class="topbar_open-wifi__items d-flex">
+                    <span>Open</span>
+                    <span class="blue-text">Wifi</span>
+                    <img src="./svgs/dropdown.svg" alt="dropdown">
+                </div>
+            </li>
+            <li class="topbar_system-status">
+                <div class="topbar_system-status__items">
+                    <img src="./svgs/wifi-colored.svg" alt="system status">
+                    <div>
+                        <p>System Status</p>
+                        <p>Healthy</p>
+                    </div>
+                    <img src="./svgs/dropdown.svg" alt="dropdown">
+                </div>
+            </li>
+            <li class="topbar_spends">
+                <div class="topbar_spends__items">
+                    <img src="./svgs/dollar.svg" alt="spends">
+                    <div>
+                        <p>Today's spends</p>
+                        <p>$ 42.40</p>
+                    </div>
+                    <img src="./svgs/dropdown.svg" alt="dropdown">
+                </div>
+            </li>
+            <li class="topbar_location">
+                <div class="topbar_location__items">
+                    <img src="./svgs/location.svg" alt="location">
+                    <div>
+                        <p>Location</p>
+                        <p>Coffee Hut - IIIT H</p>
+                    </div>
+                    <img src="./svgs/dropdown.svg" alt="dropdown">
+                </div>
+            </li>
+            <li class="topbar_notifications d-flex">
+                <img src="./svgs/notification.svg" alt="notification">
+                <img src="./svgs/user.svg" alt="user">
+            </li>
+        </ul>
+    </div>
+    <div class="sidebar-container">
+        <ul class="sidebar">
+            <li class="sidebar_hamburger">
+                <img src="./svgs/hamburger.svg" alt="hamburger">
+            </li>
+            <li class="sidebar_view-type">
+                <img src="./svgs/grid.svg" alt="grid-view">
+            </li>
+            <li class="sidebar_lan">
+                <img src="./svgs/lan.svg" alt="lan">
+            </li>
+            <li class="sidebar_box">
+                <img src="./svgs/box.svg" alt="box">
+            </li>
+            <li class="sidebar_smart-tv">
+                <img src="./svgs/tv.svg" alt="tv">
+            </li>
+            <li class="sidebar_profile">
+                <img src="./svgs/profile.svg" alt="profile">
+            </li>
+            <li class="sidebar_info">
+                <img src="./svgs/info.svg" alt="info">
+            </li>
+            <li class="sidebar_router active-item">
+                <img src="./svgs/router.svg" alt="router">
+            </li>
+            <li class="sidebar_wifi">
+                <img src="./svgs/wifi.svg" alt="wifi">
+            </li>
+            <li class="sidebar_settings">
+                <img src="./svgs/settings.svg" alt="settings">
+            </li>
+        </ul>
+        <div class="add-item">
+            <img src="./svgs/plus.svg" alt="add">
+        </div>
+    </div>
+    <div class="breadcrumb">< Hardware</div>
+    <div class="gateway-config">Gateway Configuration</div>
+    <div class="router-info">
+        <div class="model-info">
+            <img src="./svgs/wifi-router.svg" alt="router status">
+            <span>OpenWifi Gateway XS3</span>
+            <p class="online-status">Online</p>
+        </div>
+        <div class="hardware-details">
+            <h5>Hardware details</h5>
+            <p>MAC Address</p>
+            <p>xx:xx:xx:23</p>
+            <p>Device Model</p>
+            <p>ap21D</p>
+            <p>Firmare</p>
+            <p>v 2.02.2</p>
+            <p>Uptime</p>
+            <p>99.28%</p>
+            <p>Device Health</p>
+            <p class="device-health">Good</p>
+            <p>IP Address</p>
+            <p>176.10.0.10</p>
+            <p>CPU usage</p>
+            <progress value="22" max="100" class="cpu-usage"></progress><span>22%</span>
+            <p>Memory</p>
+            <progress value="56" max="100" class="memory"></progress><span>56%</span>
+            <p>Clients</p>
+            <p>H2_921A</p>
+            <p>Added on</p>
+            <p>13 July 2019</p>
+        </div>
+        <div class="speed-info">
+            <h5>Hardware details</h5>
+            <p>Download Speed</p>
+            <progress value="22" max="100" class="cpu-usage"></progress><span>23.4 MBPS</span>
+            <p>Upload Speed</p>
+            <progress value="56" max="100" class="memory"></progress><span>23.4 MBPS</span>
+        </div>
+    </div>
+    <div class="wan-container">
+        <div class="port-type">WAN Ports</div>
+        <table>
+            <thead>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td>NAME</td>
+                    <td>UPTIME</td>
+                    <td>STATUS</td>
+                    <td>IP ADDRESS</td>
+                    <td>CONNECTION TYPE</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><img src="" alt="">
+                    <td><input type="checkbox"/></td>
+                    <td><img src="./svgs/port.svg" alt="port">Ethernet 1</td>
+                    <td>99.8%</td>
+                    <td>Up</td>
+                    <td>192.168.1.1</td>
+                    <td>PPoE</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination">
+            <p class="pagination_showing">Showing 03/03 forwards</p>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <p class="pagination_perpage">10 per page</p>
+        </div>
+    </div>
+    <div class="lan-container">
+        <div class="port-type">LAN Ports</div>
+        <table>
+            <thead>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td>NAME</td>
+                    <td>UPTIME</td>
+                    <td>STATUS</td>
+                    <td>IP ADDRESS</td>
+                    <td>LAN GROUP</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td><img src="./svgs/port.svg" alt="port">Ethernet 1</td>
+                    <td>99.8%</td>
+                    <td>Up</td>
+                    <td>192.168.1.1</td>
+                    <td>Default Group</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td><img src="./svgs/port.svg" alt="port">Ethernet 1</td>
+                    <td>99.8%</td>
+                    <td>Up</td>
+                    <td>192.168.1.1</td>
+                    <td>Default Group</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination">
+            <p class="pagination_showing">Showing 03/03 forwards</p>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <p class="pagination_perpage">10 per page</p>
+        </div>
+    </div>
+    <div class="intranet-container">
+        <div class="port-type">Intranet Ports</div>
+        <table>
+            <thead>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td>NAME</td>
+                    <td>UPTIME</td>
+                    <td>STATUS</td>
+                    <td>IP ADDRESS</td>
+                    <td>ACTION</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td><img src="./svgs/port.svg" alt="port">Ethernet 1</td>
+                    <td>99.8%</td>
+                    <td>Up</td>
+                    <td>192.168.1.1</td>
+                    <td><button>Disable</button></td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td><img src="./svgs/port.svg" alt="port">Ethernet 1</td>
+                    <td>99.8%</td>
+                    <td>Up</td>
+                    <td>192.168.1.1</td>
+                    <td><button>Disable</button></td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination">
+            <p class="pagination_showing">Showing 03/03 forwards</p>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <p class="pagination_perpage">10 per page</p>
+        </div>
+    </div>
+    <div class="side-panel">
+        <div class="port-type">WAN Port<span class="cross-button">&#10005;</span></div>
+        <div class="port-name">
+            <img src="./svgs/port1.svg" alt="port">
+            <div>
+                <p>Port name</p>
+                <p>Assigned on 21st March 2018</p>
+            </div>
+            <span class="online-dot"></span>
+        </div>
+        <div class="details">
+            <p>Status</p>
+            <p>Up</p>
+            <p>IP Address</p>
+            <p>176.10.0.10</p>
+            <p>Connection type</p>
+            <p>PPoE</p>
+            <p>Port Speed</p>
+            <p>1000 Mbps, 1000 Gbps</p>
+            <p>Uptime</p>
+            <p>99.28%</p>
+            <p>Device Health</p>
+            <p class="device-health">Good</p>
+        </div>
+        <div class="data-transfer">
+            <h5>Data Transfer</h5>
+            <p>Transfer Up</p>
+            <p>12.4 GB</p>
+            <p>Transfer Down</p>
+            <p>12.31 GB</p>
+            <p>Tran Speed</p>
+            <progress value="72" max="100" class="cpu-usage"></progress><span>23.4 MBPS</span>
+            <p>Upload Speed</p>
+            <progress value="56" max="100" class="memory"></progress><span>23.4 MBPS</span>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

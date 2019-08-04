@@ -1,0 +1,35 @@
+<svg width="184" height="96" viewBox="0 0 184 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 4 Copy" filter="url(#filter0_d)">
+<rect id="Rectangle" x="28.8905" y="9.41667" width="2.40366" height="15.2861" rx="1.20183" fill="white" stroke="#3768C4" stroke-width="0.833333"/>
+<g id="Group 3">
+<g id="Group Copy 2">
+<rect id="Rectangle_2" x="27.8762" y="27.2431" width="128.354" height="35.4627" fill="#C5D2EB"/>
+<rect id="Rectangle_3" x="22.2954" y="22.4044" width="139.515" height="37.8806" rx="1.6185" fill="#F9F9F9" stroke="#3768C4" stroke-width="0.833333"/>
+<rect id="Rectangle_4" opacity="0.9" x="27.8762" y="31.7245" width="128.354" height="22.0139" rx="1.6185" fill="#F9F9F9" stroke="#2E65CC" stroke-opacity="0.5" stroke-width="0.833333"/>
+<path id="Oval Copy 2" d="M35.7573 46.0746C37.545 46.0746 38.9943 44.6312 38.9943 42.8507C38.9943 41.0702 37.545 39.6269 35.7573 39.6269C33.9695 39.6269 32.5203 41.0702 32.5203 42.8507C32.5203 44.6312 33.9695 46.0746 35.7573 46.0746Z" stroke="#2E65CC" stroke-width="0.833333"/>
+<path id="Oval Copy 3" d="M35.7572 43.6567C36.2042 43.6567 36.5665 43.2959 36.5665 42.8507C36.5665 42.4056 36.2042 42.0448 35.7572 42.0448C35.3103 42.0448 34.948 42.4056 34.948 42.8507C34.948 43.2959 35.3103 43.6567 35.7572 43.6567Z" fill="#2E65CC"/>
+<path id="Path" opacity="0.5" d="M68.1272 37.209V45.5434H70.6993V46.6956H72.4984V48.4925H77.5133V46.6956H78.9272V45.4144H81.8844V37.209H68.1272Z" stroke="#3768C4" stroke-width="0.833333"/>
+<path id="Path_2" opacity="0.5" d="M85.1213 37.209V45.5434H87.6934V46.6956H89.4925V48.4925H94.5074V46.6956H95.9214V45.4144H98.8786V37.209H85.1213Z" stroke="#3768C4" stroke-width="0.833333"/>
+<rect id="Rectangle_5" opacity="0.5" x="44.6589" y="37.0149" width="8.09249" height="11.2836" stroke="#2E65CC" stroke-width="0.833333"/>
+<path id="Path_3" opacity="0.5" d="M102.116 37.209V45.5434H104.688V46.6956H106.487V48.4925H111.502V46.6956H112.916V45.4144H115.873V37.209H102.116Z" stroke="#3768C4" stroke-width="0.833333"/>
+<path id="Path_4" opacity="0.5" d="M119.11 37.209V45.5434H121.682V46.6956H123.481V48.4925H128.496V46.6956H129.91V45.4144H132.867V37.209H119.11Z" stroke="#3768C4" stroke-width="0.833333"/>
+<path id="Path_5" opacity="0.5" d="M136.104 37.209V45.5434H138.673V46.6956H140.475V48.4925H145.49V46.6956H146.904V45.4144H149.861V37.209H136.104Z" stroke="#3768C4" stroke-width="0.833333"/>
+<rect id="Rectangle_6" opacity="0.5" x="56.2671" y="37.0149" width="8.09249" height="11.2836" stroke="#2E65CC" stroke-width="0.833333"/>
+</g>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M28.474 28.3433C28.921 28.3433 29.2833 27.9824 29.2833 27.5373C29.2833 27.0922 28.921 26.7314 28.474 26.7314C28.0271 26.7314 27.6648 27.0922 27.6648 27.5373C27.6648 27.9824 28.0271 28.3433 28.474 28.3433Z" fill="#50AC59"/>
+<path id="Oval Copy" fill-rule="evenodd" clip-rule="evenodd" d="M31.7109 28.3433C32.1578 28.3433 32.5201 27.9824 32.5201 27.5373C32.5201 27.0922 32.1578 26.7314 31.7109 26.7314C31.2639 26.7314 30.9016 27.0922 30.9016 27.5373C30.9016 27.9824 31.2639 28.3433 31.7109 28.3433Z" fill="#FFCA28"/>
+<path id="Oval Copy 4" fill-rule="evenodd" clip-rule="evenodd" d="M34.9479 28.3433C35.3949 28.3433 35.7572 27.9824 35.7572 27.5373C35.7572 27.0922 35.3949 26.7314 34.9479 26.7314C34.501 26.7314 34.1387 27.0922 34.1387 27.5373C34.1387 27.9824 34.501 28.3433 34.9479 28.3433Z" fill="#3768C4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="0.878662" y="0" width="182.348" height="95.7058" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="12"/>
+<feGaussianBlur stdDeviation="10.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

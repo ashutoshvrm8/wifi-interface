@@ -1,0 +1,14 @@
+{
+  "name": "openwifi_assignment_ashutosh",
+  "version": "1.0.0",
+  "description": "Prototype",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Ashutosh Verma",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
